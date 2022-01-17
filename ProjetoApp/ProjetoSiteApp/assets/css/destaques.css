@@ -16,3 +16,64 @@
     grid-row-end: 3;
 
 }
+
+.destaques__secundario:nth-child(2) {
+    background-image:url('../img/pubg.jpg'); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.destaques__secundario:nth-child(3){
+
+    background-image:url('../img/slack.png'); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 2;
+
+}
+
+.destaques__secundario:nth-child(4){
+
+    background-image:url('../img/whatsapp.png'); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 3;
+    grid-row-end: 3;
+
+
+}
+
+.destaques__secundario:nth-child(5){
+
+    background-image:url('../img/cs-go.jpg'); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 3;
+
+
+}
+
+.destaques_categoria{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 3;
+
+
+}
